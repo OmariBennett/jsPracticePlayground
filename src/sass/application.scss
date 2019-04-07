@@ -1,0 +1,92 @@
+/*********************************************************************************************************
+**                                                                                                      **
+	SCSS Santity Test  './scss/application.scss
+**                                                                                                      **
+*********************************************************************************************************/
+// ==========================================================================
+// Global Imports
+// ==========================================================================
+//Font Stackstack
+$stack-sans-serif		: 	Arial, sans-serif;
+$stack-serif				: 	Georgia, serif;
+$stack-GFS 					:		GFS Neohellenic, $stack-serif;
+$stack-Donegal			:		Donegal One, $stack-sans-serif;
+
+.canvas {
+	display: grid;
+	grid-template-rows: 55% repeat(4, 1fr);
+	background-color: red;
+	background-image: url("../img/africandesign.jpg");
+	background-size: cover;
+	border: 15px solid #000;
+	box-shadow: 10px 0px 12px rgba(0,0,0, 0.5);
+	width: 350px;
+	height: 400px;
+	margin: 50px;
+	position: relative;
+
+
+	&__title {
+		grid-row: 2;
+		color: #B30000;
+		font-family: $stack-GFS;
+		font-size: 2em;
+		letter-spacing: 1.1px;
+		padding: 0 10px;
+	}
+
+	&__title,
+	&__footer,
+	&__btn {
+		text-transform: uppercase;		
+	}
+
+	&__sub-title {
+		grid-row: 3;
+		font-family: $stack-Donegal;
+		letter-spacing: 1.1px;
+		padding: 10px 10px 0 10px;
+	}
+
+	&__sub-title,
+	&__content {
+		text-transform: lowercase;
+		background-color: rgba(0,0,0, 0.5);		
+	}
+
+	&__sub-title--highlight {
+		color: #E55317;
+		font-style: italic;
+	}
+
+	&__content {
+		grid-row: 4;
+		padding: 0 10px;
+	}
+
+	&__footer {
+		color: #fff;
+		font-size: .8em;
+		text-align: right;
+		padding-top: 5px;
+		padding-right: 44px;
+	}
+
+	&__btn {
+		color: #fff;
+		letter-spacing: 0.8px;
+		background-color: rgba(0,0,0, 0.5);
+		border-radius: 5px;
+		width: 150px;
+		margin: 5px 0;
+		position: absolute;
+		right: 40px;
+		bottom: 0;
+	}
+
+	&__btn:hover {
+		border-color: #B30000;
+		cursor: pointer;
+
+	}
+}

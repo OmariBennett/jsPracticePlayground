@@ -1,0 +1,24 @@
+*, *::before, *::after {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: grey;
+	background-image: url("../img/homescreen1.jpg");
+	background-repeat: repeat-x;
+	font-family: Donegal One;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+p {
+	color: white;
+}
