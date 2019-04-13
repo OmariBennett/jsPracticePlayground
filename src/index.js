@@ -13,6 +13,7 @@ import './img/caper.jpg';
 import './img/homescreen.jpg';
 import './img/homescreen1.jpg';
 import './img/traditionalism.jpg';
+import './img/moneypic7.jpg';
 
 /* JavaScript File imports */
 import './js/scripts.js';

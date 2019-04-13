@@ -1,24 +1,17 @@
-*, *::before, *::after {
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
-}
-
 body {
 	background-color: grey;
-	background-image: url("../img/homescreen1.jpg");
-	background-repeat: repeat-x;
-	font-family: Donegal One;
+	 background-image: url("../img/moneypic7.jpg");
+	 background-size: cover;
 }
-
 h1 {
-	color: white;
+	color: black;
 }
-
-h2 {
-	color: white;
+h2{
+	color: black;
 }
-
-p {
-	color: white;
+p{
+	color: black;
+}
+.promotion{
+	color: black;
 }
